@@ -11,7 +11,7 @@ const puppetOptions = {
 }
 
 const bot = new Wechaty({
-    name: "wechaty-robot",
+    name: "wechaty-charbot",
     puppet,
     puppetOptions,      
 });
