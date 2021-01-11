@@ -27,8 +27,8 @@ able.com/github/Wechaty/wechaty)在内的跨平台支持。
 ## 使用WeChaty实现
   - 接收微信好友及微信群信息，并post给运维接口对指令集做逻辑处理
   - 提供外部访问Wechaty接口，方便外面调用，如外部通过http请求给微信群或个人发信息
-    - 发送文本： curl  http://123.59.17.12:5708/send_group_msg?type=text&group_name=test&message=test
-    - 发送图片： curl  http://123.59.17.12:5708/send_group_msg?type=media&group_name=test&message=test&url=www.xxx.com/xx.png
+    - 发送文本： curl  http://xxx/send_group_msg?type=text&group_name=test&message=test
+    - 发送图片： curl  http://xxx/send_group_msg?type=media&group_name=test&message=test&url=www.xxx.com/xx.png
   
 ## 运行起来
 1. ### 安装Node.js
