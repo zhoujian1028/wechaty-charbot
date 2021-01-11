@@ -1,0 +1,21 @@
+{
+  "name": "wechaty-robot",
+  "version": "1.0.0",
+  "description": "小玛哥微信机器人",
+  "author": "zhoujian",
+  "license": "ISC",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "express": "^4.17.1",
+    "file-box": "^0.16.4",
+    "opencollective-postinstall": "^2.0.3",
+    "qrcode-terminal": "^0.12.0",
+    "superagent": "^6.1.0",
+    "wechaty": "^0.53.1"
+  },
+  "devDependencies": {}
+}
