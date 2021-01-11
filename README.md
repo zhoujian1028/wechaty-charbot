@@ -25,4 +25,22 @@ able.com/github/Wechaty/wechaty)在内的跨平台支持。
 
 ## 使用WeChaty实现
   - 接收微信好友及微信群信息，并post给运维接口对指令集做逻辑处理
-  - 提供外部访问Wechaty接口，方便外面调用，如外部通过http请求给微信或个人发信息
+  - 提供外部访问Wechaty接口，方便外面调用，如外部通过http请求给微信群或个人发信息
+  
+## 运行起来
+1. ### 安装Node.js
+   node官网：https://nodejs.org/zh-cn/
+   Wechaty 要求Node.js版本10或以上，安装配置可参考 [《Node.js 安装配置| 菜鸟教程》](https://www.runoob.com/nodejs/nodejs-install-setup.html) ，官方[下载地址]
+(https://nodejs.org/zh-cn/download/)。
+
+2. ### 运行WeChaty
+   先来安装一下
+   ```
+   cd wechaty-charbot
+   npm install
+   ```
+   没有问题就可以运行WeChaty了
+
+   在config/index.js下修改官方提供的token及端口
+   执行 node index.js
+   当您看到输出 `在WeChaty服务上监听 3000 端口...` 就是成功运行了～
