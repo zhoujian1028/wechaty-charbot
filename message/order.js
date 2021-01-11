@@ -32,6 +32,7 @@ async function orderMessage(msg) {
                     "uid": topic,
                     "user_id": contact.name()
                 };
+                // 请求后端接口 负责处理指令逻辑
                 axios.post('http://192.168.1.10/weixin/receive_message/', queryData, headers)
                     .then(function(response) {
                         console.log(response.data);
@@ -51,6 +52,7 @@ async function orderMessage(msg) {
                     "uid": contact.name(),
                     "user_id": contact.name()                    
                 };
+                // 请求后端接口 负责处理指令逻辑
                 axios.post('http://192.168.1.10/weixin/receive_message/', queryData, headers)
                     .then(function(response) {
                         console.log(response.data);
