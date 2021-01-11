@@ -32,7 +32,7 @@ able.com/github/Wechaty/wechaty)在内的跨平台支持。
 ## 运行起来
 1. ### 安装Node.js
    node官网：https://nodejs.org/zh-cn/
-   Wechaty 要求Node.js版本10或以上，我使用的版本是nodev12.20.0 npm6.14.8。
+   Wechaty 要求Node.js版本10或以上，本环境使用的版本是nodev12.20.0 npm6.14.8。
 
 2. ### 运行WeChaty
    先来安装一下
@@ -42,7 +42,7 @@ able.com/github/Wechaty/wechaty)在内的跨平台支持。
    ```
    没有问题就可以运行WeChaty了
 
-   在config/index.js下修改官方提供的token及端口
+   在config/index.js下修改官方提供的token
    ```   
    执行 node index.js
    ```   
