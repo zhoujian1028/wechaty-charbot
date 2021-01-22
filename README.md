@@ -12,9 +12,10 @@
 [![Powered by Wechaty](https://img.shields.io/badge/Powered%20By-Wechaty-green.svg)](https://github.com/chatie/wechaty)
 [![Wechaty开源激励计划](https://img.shields.io/badge/Wechaty-开源激励计划-green.svg)](https://github.com/juzibot/Welcome/wiki/Everything-about-Wechaty)
 
-    **全球最短的ChatBot代码：6行JavaScript**
 
-    ```javascript
+  **全球最短的ChatBot代码：6行JavaScript**
+
+  ```javascript
   const { Wechaty } = require('wechaty')
   Wechaty.instance()
   .on('scan', (qrcode, status) => console.log(`Scan QR Code to login: ${status}\nhttps://api.qrserver.com/v1/create-qr-code/?data=${encodeURIComponent(qrcode
@@ -22,7 +23,8 @@
   .on('login',            user => console.log(`User ${user} logined`))
   .on('message',       message => console.log(`Message: ${message}`))
   .start()
-    ```
+  ```
+
 
 ## 使用Wechaty实现
 
